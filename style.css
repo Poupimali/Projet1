@@ -1,5 +1,9 @@
 /* -----------------------------HEADER ---------------------------  */
 
+body {
+    margin: 0 0;
+}
+
 header {
     position: fixed;
     z-index: 10;
@@ -47,8 +51,7 @@ nav a:hover {
     transition: .4s;
 }
 
-/* -----------------------------BODY PAGE--------------------------------- */
-
+/* -----------------------------INDEX--------------------------------- */
 .main-page {
     width: 100%;
     padding-top: 129px;
@@ -79,10 +82,6 @@ h1.nom-promo {
     justify-content: center;
     align-items: center;
  
-}
-
-body {
-    margin: 0 0;
 }
 
 .bloc-text {

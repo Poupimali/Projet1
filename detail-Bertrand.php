@@ -1,24 +1,4 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Bertrand Seguinotte</title>
-  <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Montserrat|Oswald" rel="stylesheet">
-</head>
-    
-<body>
-    
-    
-       <header class="topbar">
-        <a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="trombino.html">Trombino</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+<?php include './includes/_header.html'?>
 
 <div class="main-page">
 	<h1>Seguinotte Bertrand</h1>
@@ -35,8 +15,8 @@
 			<li>Concevoir un business plan</li>
 		</ul>
 		</div>
-		<div class="bloc-liste-competence">	
-		<ul>	
+		<div class="bloc-liste-competence">
+		<ul>
 			<li>Connaître 10 phrases de chinois</li>
 			<li>Analyser la situation financière d'une entreprise</li>
 		</ul>
@@ -52,15 +32,5 @@
 	</div>
 
 </div>
-<footer>
 
-        <p><a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a></p>
-            <p><a href="contact.html">CONTACT</a>
-
-            - <a href="#">MENTION LEGALES</a>
-            - Tous droits réservés ©COPYRIGHT Bertrand Geoffrey Malika - 2019</p>
-
-    </footer>
-</body>
-
-</html>
+<?php include './includes/_footer.html'?>

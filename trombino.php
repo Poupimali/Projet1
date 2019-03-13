@@ -1,27 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>TrombinoWild</title>
-    <link rel="stylesheet" href="style.css">
-     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Montserrat|Oswald" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <header class="topbar">
-        <a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="trombino.html" class="active">Trombino</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+<?php include './includes/_header.html'?>
 
     <section class="main-page">
     <h1>Trombinoscope</h1>
@@ -30,7 +7,7 @@
 
     <div class="bloc-image">
       <div class="espace">
-        <a href="detail-Geoffrey.html"><div class="trombi">
+        <a href="detail-Geoffrey.php"><div class="trombi">
           <img src="https://i.postimg.cc/qR22tMHn/geoffrey.jpg" alt="Geoffrey">
           <div class="textebloc">
             <p class="prenom-nom">Geoffrey Bédlé</p>
@@ -39,7 +16,7 @@
         </div></a>
       </div>
       <div class="espace">
-      	<a href="detail-Malika.html"><div class="trombi">
+      	<a href="detail-Malika.php"><div class="trombi">
       		<img src="https://i.postimg.cc/90Q30dWK/Malika.jpg" alt="Malika">
       		<div class="textebloc">
       			<p class="prenom-nom">Malika Céladon</p>
@@ -48,7 +25,7 @@
       	</div></a>
       </div>
       <div class="espace">
-      	<a href="detail-Emmanuel.html"><div class="trombi">
+      	<a href="detail-Emmanuel.php"><div class="trombi">
       		<img src="https://i.postimg.cc/L5xp3yCm/Emmanuel.jpg" alt="Malika">
       		<div class="textebloc">
       			<p class="prenom-nom">Emmanuel Plumas</p>
@@ -62,7 +39,7 @@
 
       <div class="bloc-image">
         <div class="espace">
-        	<a href="detail-Bertrand.html"><div class="trombi">
+        	<a href="detail-Bertrand.php"><div class="trombi">
         		<img src="https://i.postimg.cc/8cBh7XCh/bertrand.jpg">
         		<div class="textebloc">
         			<p class="prenom-nom">Bertrand Seguinotte</p>
@@ -71,24 +48,10 @@
         	</div></a>
         </div>
     </div>
-        
-        
-        
-        
-
 
         <div class="bloc-bouton"><a href="contact.html"><input class="bouton-trombi" type="button"value="Contactez-nous"></a></div>
 
 
   </section>
 
-<footer>
-    <p><a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a></p>
-        <p><a href="contact.html">CONTACT</a>
-        - <a href="#">MENTION LEGALES</a>
-        - Tous droits réservés ©COPYRIGHT Bertrand Geoffrey Malika - 2019</p>
-</footer>
-
-</body>
-
-</html>
+<?php include './includes/_footer.html'?>

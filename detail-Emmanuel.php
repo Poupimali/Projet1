@@ -1,23 +1,5 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Emmanuel Plumas</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Montserrat|Oswald" rel="stylesheet">
-</head>
+<?php include './includes/_header.html'?>
 
-<body>
-
-    <header class="topbar">
-        <a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="trombino.html">Trombino</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
   <div class="main-page">
   	<h1>Emmanuel Plumas</h1>
 
@@ -54,14 +36,5 @@
 	</div>
 
 </div>
-     <footer>
 
-        <p><a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a></p>
-
-        <p><a href="contact.html">CONTACT</a>
-            - <a href="#">MENTION LEGALES</a>
-            - Tous droits réservés ©COPYRIGHT Bertrand Geoffrey Malika - 2019</p>
-
-    </footer>
-</body>
-</html>
+<?php include './includes/_footer.html'?>

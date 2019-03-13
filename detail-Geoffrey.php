@@ -1,21 +1,4 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Geoffrey Bédlé</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Montserrat|Oswald" rel="stylesheet">
-</head>
-<body>
-     <header class="topbar">
-        <a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="trombino.html">Trombino</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+<?php include './includes/_header.html'?>
 
 
 <div class="main-page">
@@ -23,7 +6,7 @@
 
 	<div class="bloc-image-detail"><img src="https://i.postimg.cc/qR22tMHn/geoffrey.jpg" alt="Geoffrey"></div>
 	<h2>BIOGRAPHIE</h2>
-	<p class="detail-paragraphe">Nordiste pure souche, Geoffrey est originaire de Boulogne-sur-mer dans le Pas de Calais. 
+	<p class="detail-paragraphe">Nordiste pure souche, Geoffrey est originaire de Boulogne-sur-mer dans le Pas de Calais.
 Après avoir travaillé en tant qu’enseignant de la conduite et de la sécurité routière pendant six années, sa passion pour le web et les nouvelles technologies a pritsle dessus aujourd’hui.
 Wilder de février 2019 spécialisé en PHP, il aime partager et échanger avec les autres.
 
@@ -37,8 +20,8 @@ Wilder de février 2019 spécialisé en PHP, il aime partager et échanger avec 
 			<li>PHP</li>
 		</ul>
 		</div>
-		<div class="bloc-liste-competence">	
-		<ul>	
+		<div class="bloc-liste-competence">
+		<ul>
 			<li>Symphony 4</li>
 			<li>Bootstrap</li>
 			<li>React</li>
@@ -54,14 +37,5 @@ Wilder de février 2019 spécialisé en PHP, il aime partager et échanger avec 
 	</div>
 
 </div>
-    <footer>
 
-        <p><a href="https://wildcodeschool.fr/" target="_blank"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a></p>
-
-        <p><a href="contact.html">CONTACT</a>
-            - <a href="#">MENTION LEGALES</a>
-            - Tous droits réservés ©COPYRIGHT Bertrand Geoffrey Malika - 2019</p>
-
-    </footer>
-</body>
-</html>
+<?php include './includes/_footer.html'?>

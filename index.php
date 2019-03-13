@@ -1,12 +1,13 @@
 <?php include './includes/_header.html'?>
 
-    <div class="main-page">
         <div class="maclasse">
-            <img src="img/photoheaderhome.jpg" class="image-header">
-            <h1 class="nom-promo">La promo phoenix</h1>
+                <h1 class="nom-promo">Trouve ton Wilder !</h1>
+                <div class="maclasse2">
+                    <input class="recherche" type="text" placeholder="Qui ? Quoi ?">
+                    <input class="recherche" type="text" placeholder="Où ?">
+                    <a href="trombino.html"><input class="bouton-trombi" type="button" value="Go !"></a>
+                </div>
         </div>
-
-
 
         <section class="bloc-text">
 

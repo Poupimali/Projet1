@@ -1,4 +1,4 @@
-<?php include './includes/_header.html'?>
+<?php include './includes/_header.php'?>
 
 <div class="main-page">
 	<h1>Céladon Malika</h1>

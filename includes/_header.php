@@ -14,7 +14,7 @@
         <a href="index.php"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
         <nav>
           <?php
-          // objectif faire marcher la classe active
+          // pour faire marcher la classe active
             $classActive = [
               'home',
               'trombino',
@@ -24,11 +24,10 @@
           // bout de code à tester pour récupérer la page active
             $path = $_SERVER['PHP_SELF']; // $path = /home/httpd/html/index.php
             $file = basename ($path);
-            echo"$file";
 
-          // boucle à modifier 
+            // boucle pour la nav
             foreach ($classActive as $i => $namePage) { ?>
-              <a href="<?php echo $namePage?>.php" class="<?php if ($i === 0){ echo 'active'; }?>"><?php echo stroupper($namePage); ?></a>
+              <a href="<?php echo $namePage?>.php" class="<?php if ($file === $namePage . '.php'){ echo 'active'; }?>"><?php echo strtoupper($namePage); ?></a>
 
             <?php } ?>
         </nav>

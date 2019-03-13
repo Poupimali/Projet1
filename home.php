@@ -7,7 +7,7 @@
                 <div class="maclasse2">
                     <input class="recherche" type="text" placeholder="Qui ? Quoi ?">
                     <input class="recherche" type="text" placeholder="Où ?">
-                    <a href="trombino.html"><input class="bouton-trombi" type="button" value="Go !"></a>
+                    <a href="trombino.php"><input class="bouton-trombi" type="button" value="Go !"></a>
                 </div>
         </div>
 

@@ -1,4 +1,4 @@
-<?php include './includes/_header.html'?>
+<?php include './includes/_header.php'?>
 
     <section class="main-page">
     <h1>Trombinoscope</h1>

@@ -1,9 +1,5 @@
 /* -----------------------------HEADER ---------------------------  */
 
-body {
-    margin: 0 0;
-}
-
 header {
     position: fixed;
     z-index: 10;
@@ -51,7 +47,8 @@ nav a:hover {
     transition: .4s;
 }
 
-/* -----------------------------INDEX--------------------------------- */
+/* -----------------------------BODY PAGE--------------------------------- */
+
 .main-page {
     width: 100%;
     padding-top: 129px;
@@ -76,12 +73,16 @@ h1.nom-promo {
 .maclasse {
     height: 60vh;
     background-image: url(img/photoheaderhome.jpg);
-   max-height: 448px;
+    max-height: 448px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
+
+}
+
+body {
+    margin: 0 0;
 }
 
 .bloc-text {
@@ -112,11 +113,11 @@ h1.nom-promo {
 
 /* -----------------------------RECHERCHE--------------------------------- */
 .maclasse2 {
-  
+
   width: 100%;
   margin:10px;
   text-align: center;
-  color: #292736; 
+  color: #292736;
 }
 
 .maclasse2 a{
@@ -128,8 +129,8 @@ h1.nom-promo {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   margin:0px;
-  
-    
+
+
 }
 
 /* -----------------------------FOOTER--------------------------------- */
@@ -397,9 +398,9 @@ button:hover{
 
 
 
-    
-    
- 
+
+
+
   }
 
 
@@ -408,9 +409,9 @@ button:hover{
     .topbar {
         flex-direction: column;
         justify-content: center;
-        
+
     }
-    
+
 
     .topbar img {
         margin-left: 0;
@@ -423,12 +424,12 @@ button:hover{
         padding-bottom: 5px;
         width: 30%;
     }
-    
+
     nav a{
         font-size: 1.4em;
     }
-    
-   
+
+
 
     .bloc-text {
         margin: 50px;
@@ -437,11 +438,11 @@ button:hover{
     .nom-promo {
        font-size:30px;
     }
-    
+
      .detail-paragraphe,.bloc-liste-competence{
     margin:50px 50px;
 }
-    
+
     .maclasse2{
         display: flex;
         flex-direction:column;
@@ -450,7 +451,7 @@ button:hover{
     }
     .recherche{
         margin-bottom: 5px;
-        
+
     }
-   
+
     }

@@ -1,5 +1,6 @@
-
 <?php include './includes/_header.html'?>
+
+  <div class="main-page">
 
         <div class="maclasse">
                 <h1 class="nom-promo">Trouve ton Wilder !</h1>
@@ -14,13 +15,12 @@
 
             <h2>Présentation</h2>
 
-            <p>Nous sommes 36 wilders à avoir intégré la formation de développeur web et/ou mobile intensive en 5 mois de la Wild Code School à Bordeaux.</p>
-            <p>Nous recherchons tous une formation efficace qui permet d'acquérir le maximum de compétences en un minimum de temps et surtout dêtre autonome à la sortie.</p>
-            <p>A l'issue de la formation, nous serons capable de concevoir et développer une application web, d'intégrer les méthodes agiles de gestion de projet.
-                Nos capacités seront HTML,CSS,Bootstrap et nous serons spécialisés dans un langage de programmation et un framework d'application: PHP/Symphony ou JavaScript/react.</p>
-            <p>La formation est composée de ces deux groupes qui vous sont présentés sur la page <a href="trombino.html">Trombinoscope.</a></p>
+            <p>Nous sommes 36 wilders à avoir intégré la formation de développeur web et/ou mobile intensive en 5 mois de la Wild Code School à Bordeaux.
+                Nous recherchons tous une formation efficace qui permet d'acquérir le maximum de compétences en un minimum de temps et surtout dêtre autonome à la sortie. A l'issue de la formation, nous serons capable de concevoir et développer une application web, d'intégrer les méthodes agiles de gestion de projet.
+                Nos capacités seront HTML,CSS,Bootstrap et nous serons spécialisés dans un langage de programmation et un framework d'application: PHP/Symphony ou JavaScript/react.
+                La formation est composée de ces deux groupes qui vous sont présentés sur la page <a href="trombino.html">Trombinoscope.</a></p>
 
-            <div class="bloc-bouton"><a href="contact.html"><input class="bouton-trombi" type="button" value="Contactez-nous"></a></div>
+            <div class="bloc-bouton"><input class="bouton-trombi" type="button" value="Contactez-nous"></div>
 
         </section>
     </div>
@@ -38,4 +38,3 @@
 </body>
 
 </html>
-

@@ -1,26 +1,4 @@
-<!doctype html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <title>TrombinoWild</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Montserrat|Oswald" rel="stylesheet">
-</head>
-
-<body>
-
-    <header class="topbar">
-        <a href="index.php"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
-        <nav>
-            <a href="index.php" class="active">Home</a>
-            <a href="trombino.html">Trombino</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
-
-
+<?php ?>
 
     <div class="main-page">
         <div class="maclasse">

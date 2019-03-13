@@ -1,5 +1,9 @@
 /* -----------------------------HEADER ---------------------------  */
 
+body {
+    margin: 0 0;
+}
+
 header {
     position: fixed;
     z-index: 10;
@@ -47,9 +51,7 @@ nav a:hover {
     transition: .4s;
 }
 
-/* -----------------------------BODY PAGE--------------------------------- */
-
-
+/* -----------------------------INDEX--------------------------------- */
 .main-page {
 
     width: 100%;
@@ -77,10 +79,6 @@ nav a:hover {
 
 .maclasse {
     position: relative;
-}
-
-body {
-    margin: 0 0;
 }
 
 .bloc-text {

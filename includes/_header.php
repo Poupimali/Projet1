@@ -11,7 +11,7 @@
 <body>
 
     <header class="topbar">
-        <a href="index.php"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
+        <a href="home.php"><img src="img/wcs_logo_pink_background_400x220.png" alt="logo_wcs"></a>
         <nav>
           <?php
           // pour faire marcher la classe active

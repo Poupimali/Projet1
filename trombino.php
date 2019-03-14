@@ -49,7 +49,7 @@
         </div>
     </div>
 
-        <div class="bloc-bouton"><a href="contact.html"><input class="bouton-trombi" type="button"value="Contactez-nous"></a></div>
+        <div class="bloc-bouton"><a href="contact.html"><input class="button bouton-trombi" type="button"value="Contactez-nous"></a></div>
 
 
   </section>

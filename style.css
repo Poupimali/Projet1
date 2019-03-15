@@ -221,13 +221,12 @@ p{
 	flex-flow: wrap;
 	justify-content: space-around;
   align-items: center;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin: 20px 40px 50px 40px;
 }
 
 .espace{
-  margin-top: 10px;
-	margin-bottom: 10px;
+  margin: 10px 50px;
+
 }
 .trombi{
   border: 2px solid #4ecdc4;
@@ -411,6 +410,10 @@ button:hover{
   .bloc-reseau-social {
   	display: flex;
   	justify-content: center;
+  }
+
+  .bloc-image{
+    	margin: 20px 10px 50px 10px;
   }
 
   }

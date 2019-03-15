@@ -20,35 +20,32 @@
         //fonction pour rendre plus clair un tableau
             function prClear($csv) {
                 echo '<pre>';
-                print_r($csv);
+                var_dump($csv);
                 echo '</pre>';
             }
 
-        // récupere les nom/prenom , promo et email de chacun dans un tableau d'ensemble
+        // récupere les nom/prenom et email de chacun dans un tableau d'ensemble qui ont pour condition d'être en PHP
         foreach ($csv as $key => $studentsInfos){
             $nameall = ($studentsInfos[0]); // nom prénom
             $email = ($studentsInfos[2]); // email
             $promo = ($studentsInfos[3]); // promo
+            if ($promo === 'PHP'){
+              ?>
+                  <div class="espace">
+                  <a href="detail-Geoffrey.php"><div class="trombi">
+                    <img src="https://i.postimg.cc/90Q30dWK/Malika.jpg" alt="Malika">
+                    <div class="textebloc">
+                      <p class="prenom-nom"><?php echo $nameall ?></p>
+                      <img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
+                    </div>
+                  </div></a>
+                </div>
+        <?php
+            }
 
-            echo $nameall . BR;
-            echo $email . BR;
-            echo $promo . BR;
-        }
+         } ?>
 
-
-        ?>
-
-        <div class="espace">
-        <a href="detail-Geoffrey.php"><div class="trombi">
-          <img src="https://i.postimg.cc/qR22tMHn/geoffrey.jpg" alt="Geoffrey">
-          <div class="textebloc">
-            <p class="prenom-nom">Geoffrey Bédlé</p>
-            <img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
-          </div>
-        </div></a>
-      </div>
-
-        <div class="espace">
+        <!-- <div class="espace">
       	<a href="detail-Malika.php"><div class="trombi">
       		<img src="https://i.postimg.cc/90Q30dWK/Malika.jpg" alt="Malika">
       		<div class="textebloc">
@@ -66,14 +63,35 @@
       			<img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
       		</div>
       	</div></a>
-      </div>
+      </div> -->
     </div>
 
     <h2>JAVASCRIPT</h2>
 
       <div class="bloc-image Javascript">
 
-          <div class="espace">
+      <?php
+        // récupere les nom/prenom et email de chacun dans un tableau d'ensemble qui ont pour condition d'être en PHP
+        foreach ($csv as $key => $studentsInfos){
+            $nameall = ($studentsInfos[0]); // nom prénom
+            $email = ($studentsInfos[2]); // email
+            $promo = ($studentsInfos[3]); // promo
+            if ($promo === 'JS'){
+              ?>
+                  <div class="espace">
+                  <a href="detail-Geoffrey.php"><div class="trombi">
+                    <img src="https://i.postimg.cc/90Q30dWK/Malika.jpg" alt="Malika">
+                    <div class="textebloc">
+                      <p class="prenom-nom"><?php echo $nameall ?></p>
+                      <img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
+                    </div>
+                  </div></a>
+                </div>
+        <?php
+            }
+         } ?>
+
+          <!-- <div class="espace">
         	<a href="detail-Bertrand.php"><div class="trombi">
         		<img src="https://i.postimg.cc/8cBh7XCh/bertrand.jpg">
         		<div class="textebloc">
@@ -81,12 +99,11 @@
         			<img style="width: 50px" src="https://i.postimg.cc/VLg3P8vL/phoenix.jpg" alt="Logo"/>
         		</div>
         	</div></a>
-          </div>
+          </div> -->
 
     </div>
 
         <div class="bloc-bouton"><a href="contact.html"><input class="button bouton-trombi" type="button"value="Contactez-nous"></a></div>
-
 
   </section>
 

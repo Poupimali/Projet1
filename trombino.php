@@ -32,7 +32,7 @@
             if ($promo === 'PHP'){
               ?>
                   <div class="espace">
-                  <a href="detail-Geoffrey.php"><div class="trombi">
+                  <a href="detail-Malika.php"><div class="trombi">
                     <img src="https://i.postimg.cc/90Q30dWK/Malika.jpg" alt="Malika">
                     <div class="textebloc">
                       <p class="prenom-nom"><?php echo $nameall ?></p>

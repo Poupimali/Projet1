@@ -51,6 +51,7 @@ nav a:hover {
 
 body {
     margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-page {
@@ -149,7 +150,7 @@ h1.nom-promo {
 
 .bouton-go{
   border: 0.5px;
-	line-height: 2.8rem;
+    line-height: 2.8rem;
 	padding: 0 20px;
 }
 
@@ -210,7 +211,7 @@ h2{
 
 p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   padding-bottom: 25px;
   text-align: justify;
 }
@@ -279,12 +280,18 @@ p{
 /*-------------------------------------------------------- PAGE CONTACT ---------------------------------------------------------------------*/
 .formulaire{
     width: 85%;
-    margin: 0 auto;
+}
+
+.contact-paragraphe{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    line-height: 1.5rem;
 }
 
 .form-contact{
-  margin-bottom: 15px;
+  padding-bottom: 30px;
 }
+
 .form-contact > div{
   display: flex;
   flex-direction: column;
@@ -338,6 +345,11 @@ button:hover{
   margin-left: 0;
 }
 
+.contact-error{
+    color: #F00;
+    font-size:12px;
+}
+
 /* -----------------------------PAGE DETAILS--------------------------------- */
 
 
@@ -353,7 +365,7 @@ button:hover{
 
 
 .detail-paragraphe,.bloc-liste-competence{
-  margin:50px 150px;
+  margin: 50px 180px;
   line-height: 30px;
 }
 
@@ -449,7 +461,7 @@ button:hover{
        font-size:30px;
     }
 
-     .detail-paragraphe,.bloc-liste-competence{
+    .detail-paragraphe,.bloc-liste-competence{
     margin:50px 50px;
     }
 

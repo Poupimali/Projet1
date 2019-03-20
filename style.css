@@ -350,6 +350,12 @@ button:hover{
     font-size:12px;
 }
 
+.messageOK{
+    height: 30px;
+    border: 1px solid mediumspringgreen;
+    background-color: aquamarine;
+}
+
 /* -----------------------------PAGE DETAILS--------------------------------- */
 
 
